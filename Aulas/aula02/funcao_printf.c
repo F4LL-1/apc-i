@@ -31,7 +31,9 @@ int main(){
     printf ("\n%-10s %03i %6.2f\n", "lápis", 1, 5.00);
     
 
-    // \n 
+    // \n quebra a linha
+    // - após a porcentagem, determina que o espaço deve ser feito do outro lado
+    // 0 após a porcentagem e antes de um inteiro, adiciona zeros até atingir 3 caracteres
     
     return 0;
 }   
