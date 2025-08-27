@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     printf("%-35s", "==================================");
     printf("\n%26s", "N O T A    L E G A L");
@@ -13,7 +14,6 @@ int main(){
 
     printf("\n%-35s", "==================================");
     printf("\n%-13s \t\t%s", "Total:", "229.85");
-
 
     return 0;
 }

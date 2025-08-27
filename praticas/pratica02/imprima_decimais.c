@@ -1,18 +1,18 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
-    printf ("%f\n", 3.141592);
+    printf("%f\n", 3.141592);
 
-    printf ("%.2f\n", 3.141592);
+    printf("%.2f\n", 3.141592);
 
-    printf ("%.7f\n", 3.1415926);
+    printf("%.7f\n", 3.1415926);
 
-    printf ("%.7f\n", 3.1415926f);
+    printf("%.7f\n", 3.1415926f);
 
-
-    printf ("%4.1f\n", 10.0);
-    printf ("%4.1f\n", 8.4);
+    printf("%4.1f\n", 10.0);
+    printf("%4.1f\n", 8.4);
 
     printf("\nR$ %6.2f\n", 297.85);
 
