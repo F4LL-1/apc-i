@@ -1,0 +1,7 @@
+{
+    "C_Cpp.default.compilerPath": "c:\\MinGW\\bin\\gcc.exe",
+    "files.encoding": "windows1252",
+    "files.associations": {
+        "stdio.h": "c"
+    }
+}
