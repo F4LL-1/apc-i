@@ -1,17 +1,20 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
     int ano;
-    scanf("%i", ano);
-    
+    scanf("%i", &ano);
 
+    if (((ano % 4 == 0) && (ano % 100 != 0)) || (ano % 400 == 0))
+    {
 
-
-
-
-
-
+        printf("Eh um ano bissexto.");
+    }
+    else
+    {
+        printf("Nao eh um ano bissexto. ");
+    }
 
     return 0;
 }
